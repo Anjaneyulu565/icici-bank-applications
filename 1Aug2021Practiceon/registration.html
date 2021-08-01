@@ -1,0 +1,60 @@
+<html>
+    <head>
+        <title>Registration Page</title>
+        <style>
+            h1 {
+                text-align: center;
+                color: violet;
+            }
+        </style>
+       <h1 > Welcome to  Registration Page</h1> 
+    </head>
+    <body>
+        <center>
+            <form>
+                <!------Registration Page Form-->
+                <!-----UserName Field-->
+                <label>UserName</label> <input type="text" placeholder="Enter User Name"> <br><br>
+                <!-----Password Field-->
+                <label>password</label> <input type="text" placeholder="Enter Passcode"><br><br>
+
+                <!-----DropDown box Selection-->
+                <label>Select Your Course</label>
+                <select>
+                    <option>---Select----</option>
+                    <option>Python</option>
+                    <option>JAVA</option>
+                    <option>MEAN Stack</option>
+                    <option>MERN Stack</option>
+                    <option>Python FullStack</option>
+                    <option>DATA Science</option>
+                    <option>Machine Learning</option>
+                    <option>Devops</option>
+                    <option>Azure</option>
+                    <option>AWS</option>
+
+                </select><br><br>
+
+                <!------Text Area Feild-->
+                <textarea cols="40" rows="10" placeholder="Tell Us about Your Self"></textarea><br><br>
+                
+                <!---Selection of DATE-->
+                <label>Select Date</label> <input type="date"><br><br>
+
+                <!----Gender Selection ---->
+                Gender :   <input name="g" type="radio"> Male <input name="g" type="radio"> Female <input type="radio" name="g">Others <br><br> 
+                
+                <!----Upload File-->
+                Upload Your Resume\file : <input type="file" multiple> <br><br>
+
+                <!----Terms & conditions-->
+                <input type="checkbox" > I Agree terms & conditions <br><br>
+
+                <!---Submit Button-->
+                <button>Submit</button>
+
+            </form>
+
+        </center>
+    </body>
+</html>
